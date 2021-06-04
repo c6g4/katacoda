@@ -2,13 +2,15 @@
 
 By default docker does not delete a container when it is stopped.
 
+`docker run -d --name hello busybox echo 'Hello, world!'`{{execute interrupt}}
+
 So you can start it again later, the logs aren't lost, etc.
 
-Run this a few times:
+Now run this a few times:
 
 `docker start hello`{{execute interrupt}}
 
-Now see how the logs append each time:
+You can see how the logs append each time:
 
 `docker logs hello`{{execute interrupt}}
 
@@ -46,5 +48,17 @@ Instead of using the name, we can also specify the container by its id.
 
 If want to take a more radical approach, you can just delete all non-running containers like this:
 
-`docker container prune``{{execute interrupt}}
+`docker container prune`{{execute interrupt}}
 
+But in general, the recommended practice is to not let containers pile up without giving any attention.
+If you know you won't need the stopped container later, you can request `docker` to delete it immediately after the container stops, using the `--rm` option:
+
+`docker rm hello`{{execute interrupt}}
+
+`docker run -d --rm --name hello busybox echo 'Hello, world!'`{{execute interrupt}}
+
+The container is not retained.
+
+`docker rm hello`{{execute interrupt}}
+
+Another advantage is that the name `hello` is also freed up.

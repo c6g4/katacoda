@@ -10,7 +10,7 @@ The `busybox` docker image provides simple versions of many standard linux tools
 
 Note: this will `docker pull` the busybox from docker hub when you run it the first time. (...)
 
-Remember that you can use `docker run --help`{{execute}} to get an idea what each part of the command means.
+Remember that you can use `docker run`{{execute}} to get an idea what each part of the command means.
 
 * busybox is the name of the docker image
 * `echo 'Hello, world!'` is what is executed within the docker container
@@ -65,6 +65,8 @@ The home directory is `/root`:
 `pwd`{{execute}}
 
 Still we are just moving around inside the docker container.
+
+You can quit the shell by typing `Ctrl-D` as usually. The docker container will then stop as well.
 
 Docker is great for providing an encapsulated environment, and there is a smaller risk to do harm to damage to the
 outside just by accident.

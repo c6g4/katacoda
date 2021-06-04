@@ -9,9 +9,12 @@ Remember that when started this way, we did not see any directories from the hos
 # `-v host_dir:cont_dir`
 
 Our current working directory on the host is:
+
 `echo $(pwd)`{{execute interrupt}}
 
-We can mount it into the container using a _bind mount_.
+(At this point, you may wish to create another directory on the host and `cd` to it.)
+
+We can mount the working directory into the container using a _bind mount_.
 
 `docker run -it --rm -v $(pwd):/hostpwd busybox`{{execute interrupt}}
 

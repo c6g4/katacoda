@@ -2,13 +2,16 @@
 
 You can get built-in help messages from docker. 
 
-Docker prints a list of its many commands when it is invoked without any arguments.
 
 ## docker
+
+Docker prints a list of its many commands when it is invoked without any arguments.
 
 `docker`{{execute}}
 
 ## docker help
+
+Docker has built-in help for each command.
 
 `docker help`{{execute}}
 

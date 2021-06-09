@@ -76,7 +76,8 @@ is running.
 
 ## Detached mode: `-d`
 
-Use detached mode to run a container in the background. You can still interact with it by other means.
+Use detached mode to run a container in the background. 
+
 ```shell
   -d, --detach                         Run container in background and print container ID
 ```
@@ -86,11 +87,11 @@ Let us try "Hello, world!" in detached mode:
 
 We just get a container id in return, at least as seen from the command line.
 
-When a container runs in detached mode, you need other means to interact with it.
+When a container runs in detached mode, we can still interact with it in many ways.
 
-## How to `--name` your container
+## Your can  `--name` your container
 
-There may be a lot of containers on a host when docker is used. Docker assigns a name automatically, but you can request a name using `--name`.
+There can be a lot of containers on a host where docker is running. Docker assigns an id and even a name to the container automatically, but you can request a specific name using `--name`.
 
 `docker run -d --name hello busybox echo 'Hello, world!'`{{execute interrupt}}
 

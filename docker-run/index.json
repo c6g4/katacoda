@@ -22,12 +22,12 @@
         "text": "step_mounting_directories.md"
       },
       {
-        "title": "Port forwarding",
-        "text": "step_port_forwarding.md"
-      },
-      {
         "title": "docker attach",
         "text": "step_docker_attach.md"
+      },
+      {
+        "title": "Port forwarding",
+        "text": "step_port_forwarding.md"
       }
     ],
     "intro": {

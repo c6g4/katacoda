@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57210f93-e5e1-4975-9f6b-38540e90a425" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-run/step_docker_attach.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-help/finish.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker-help/finish.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-run/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/docker-run/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-run/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker-run/intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-run/step1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker-run/step_run_options.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-run/step10.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-run/step2.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker-run/step_interactive_detached.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-run/step3.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker-run/step_cleaning_up.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-run/step4.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker-run/step_mounting_directories.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-run/step5.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker-run/step_port_forwarding.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-run/step6.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-run/step7.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-run/step8.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-run/step9.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-run/step_cleaning_up.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker-run/step_cleaning_up.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-run/step_interactive_detached.md" beforeDir="false" afterPath="$PROJECT_DIR$/docker-run/step_interactive_detached.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623148276157</updated>
       <workItem from="1623148280087" duration="598000" />
-      <workItem from="1623233124274" duration="8011000" />
+      <workItem from="1623233124274" duration="9496000" />
     </task>
     <servers />
   </component>

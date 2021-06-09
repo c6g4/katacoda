@@ -16,9 +16,9 @@ You can see how the logs append each time:
 
 ## `docker ps`
 
-However the default retention policy of docker also means that over time a lot of container will pile up somewhere.
+The default retention policy of docker implies that over time a lot of container can pile up somewhere.
 
-You can see the running container like this:
+You can see the running containers like this:
 
 `docker ps`{{execute interrupt}}
 
@@ -36,7 +36,7 @@ We can ask docker to delete the `hello` container by its name:
 
 `docker rm hello`{{execute interrupt}}
 
-After this, it's gone. Caution: there is no _undo_.
+After this, it's gone. Caution: _there is no undo_.
 
 `docker logs hello`{{execute interrupt}}
 
@@ -57,7 +57,7 @@ If you know you won't need the stopped container later, you can request `docker`
 
 `docker run -d --rm --name hello busybox echo 'Hello, world!'`{{execute interrupt}}
 
-The container is not retained.
+This time the container is not retained.
 
 `docker rm hello`{{execute interrupt}}
 

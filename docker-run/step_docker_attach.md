@@ -68,3 +68,5 @@ Or, as the [`docker stop` documentation](https://docs.docker.com/engine/referenc
 
 Our little `for` loop did not listen to `SIGTERM`, but other applications running inside a container might use the grace
 period to end themselves in a controlled way.
+
+You can attach to the same contained process multiple times simultaneously, from different sessions on the Docker host.

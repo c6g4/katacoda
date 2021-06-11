@@ -12,6 +12,9 @@ Inside the busybox shell, we run a countdown:
 
 Intermittently, we can detach from the running container by typing Ctrl-p Ctrl-q (try it out!)
 
+_Note: this doesn't seem to work on katacoda terminal in the browser, instead the terminal is quit :-(
+It works on a "real" terminal - so you may want to run the commands on you local computer._
+
 The count down is still progressing ... as we can see by taking a look at the last 10 lines of the logs:
 
 `docker logs bb -n 10`{{execute}}

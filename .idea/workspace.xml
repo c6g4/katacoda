@@ -26,6 +26,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -42,11 +44,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623148276157</updated>
-      <workItem from="1623148280087" duration="646000" />
+      <workItem from="1623148280087" duration="1449000" />
     </task>
+    <task id="LOCAL-00001" summary="one more thing">
+      <created>1623327705246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623327705247</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="one more thing" />
+    <option name="LAST_COMMIT_MESSAGE" value="one more thing" />
   </component>
 </project>
